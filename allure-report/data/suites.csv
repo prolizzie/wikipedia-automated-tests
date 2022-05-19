@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 19 23:09:33 YEKT 2022","Thu May 19 23:09:35 YEKT 2022","2465","","org.example.TestCases","","org.example.TestCases","testAboutWikiScreen","testAboutWikiScreen","Проверяем отображение блоков на странице ""О Википедии"""
+"passed","Thu May 19 23:37:07 YEKT 2022","Thu May 19 23:37:09 YEKT 2022","2454","","org.example.tests.TestFeedSettings","","org.example.tests.TestFeedSettings","testFeedSettings","testFeedSettings","Проверяем чекбоксы на странице настройки ленты"
+"passed","Thu May 19 23:15:16 YEKT 2022","Thu May 19 23:15:19 YEKT 2022","2598","","org.example.TestCases","","org.example.TestCases","checkAddingArticleToFavourites","checkAddingArticleToFavourites","Проверяем добавление статьи в избранное"

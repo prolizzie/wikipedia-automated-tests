@@ -1,0 +1,114 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "localhost",
+    "children" : [ {
+      "name" : "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(204)",
+      "children" : [ {
+        "name" : "checkAddingArticleToFavourites",
+        "uid" : "17d7ebde93de65a2",
+        "parentUid" : "f0effc48aa94e6ae7d69af7ba3bd31b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652983610144,
+          "stop" : 1652983612573,
+          "duration" : 2429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0effc48aa94e6ae7d69af7ba3bd31b3"
+    }, {
+      "name" : "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(384)",
+      "children" : [ {
+        "name" : "testFeedSettings",
+        "uid" : "148fc76a8e0eb13",
+        "parentUid" : "1a2732382647b15636296ebc049761db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652985333598,
+          "stop" : 1652985335998,
+          "duration" : 2400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a2732382647b15636296ebc049761db"
+    }, {
+      "name" : "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(244)",
+      "children" : [ {
+        "name" : "testAboutWikiScreen",
+        "uid" : "c204d64f59a1318e",
+        "parentUid" : "977a6650ad2a754eaa51c95e7b37054b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652983773513,
+          "stop" : 1652983775978,
+          "duration" : 2465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "977a6650ad2a754eaa51c95e7b37054b"
+    }, {
+      "name" : "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(284)",
+      "children" : [ {
+        "name" : "checkAddingArticleToFavourites",
+        "uid" : "286347fd7588d618",
+        "parentUid" : "68a267715e111000d02b1a35111f508a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652984116881,
+          "stop" : 1652984119479,
+          "duration" : 2598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68a267715e111000d02b1a35111f508a"
+    }, {
+      "name" : "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(420)",
+      "children" : [ {
+        "name" : "testFeedSettings",
+        "uid" : "72437a2149641855",
+        "parentUid" : "8897f10274278e841e51313c8ac39e24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652985427251,
+          "stop" : 1652985429705,
+          "duration" : 2454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8897f10274278e841e51313c8ac39e24"
+    } ],
+    "uid" : "be30f600e0434356d35178c8efd2dc81"
+  } ]
+}

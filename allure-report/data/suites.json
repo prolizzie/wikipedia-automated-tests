@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "org.example.TestCases",
+    "children" : [ {
+      "name" : "testAboutWikiScreen",
+      "uid" : "c204d64f59a1318e",
+      "parentUid" : "716429b61c4d4d2f824fe2feca1eca5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652983773513,
+        "stop" : 1652983775978,
+        "duration" : 2465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkAddingArticleToFavourites",
+      "uid" : "286347fd7588d618",
+      "parentUid" : "716429b61c4d4d2f824fe2feca1eca5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652984116881,
+        "stop" : 1652984119479,
+        "duration" : 2598
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "716429b61c4d4d2f824fe2feca1eca5c"
+  }, {
+    "name" : "org.example.tests.TestFeedSettings",
+    "children" : [ {
+      "name" : "testFeedSettings",
+      "uid" : "72437a2149641855",
+      "parentUid" : "659679b356bfb905b59696215cccb47f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652985427251,
+        "stop" : 1652985429705,
+        "duration" : 2454
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "659679b356bfb905b59696215cccb47f"
+  } ]
+}

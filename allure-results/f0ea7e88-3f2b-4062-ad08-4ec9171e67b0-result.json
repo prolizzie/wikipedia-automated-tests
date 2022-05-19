@@ -1,0 +1,165 @@
+{
+    "name": "testAboutWikiScreen",
+    "start": 1652983773513,
+    "stop": 1652983775978,
+    "stage": "finished",
+    "description": "Проверяем отображение блоков на странице \"О Википедии\"",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Нажимаем на кнопку \"Ещё\"",
+            "start": 1652983774331,
+            "stop": 1652983774331,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открываем настройки",
+            "start": 1652983774720,
+            "stop": 1652983774720,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Скроллим до раздела \"О приложении\"",
+            "start": 1652983775179,
+            "stop": 1652983775180,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажимаем на \"О приложении \"Википедия\"",
+            "start": 1652983775236,
+            "stop": 1652983775236,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем, что на экране есть блок \"Авторы\"",
+            "start": 1652983775603,
+            "stop": 1652983775603,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем, что на экране есть блок \"Переводчики\"",
+            "start": 1652983775605,
+            "stop": 1652983775605,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем, что на экране есть блок \"Лицензия\"",
+            "start": 1652983775607,
+            "stop": 1652983775607,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "f0ea7e88-3f2b-4062-ad08-4ec9171e67b0",
+    "historyId": "c5c65d3a6715b6491cadac69fe1fbdc2",
+    "fullName": "org.example.TestCases.testAboutWikiScreen",
+    "labels": [
+        {
+            "name": "package",
+            "value": "org.example"
+        },
+        {
+            "name": "testClass",
+            "value": "org.example.TestCases"
+        },
+        {
+            "name": "testMethod",
+            "value": "testAboutWikiScreen"
+        },
+        {
+            "name": "suite",
+            "value": "org.example.TestCases"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(244)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+  "uid" : "17d7ebde93de65a2",
+  "name" : "checkAddingArticleToFavourites",
+  "fullName" : "org.example.TestCases.checkAddingArticleToFavourites",
+  "historyId" : "8184a57bc1051d5056ada797237c61a2",
+  "time" : {
+    "start" : 1652983610144,
+    "stop" : 1652983612573,
+    "duration" : 2429
+  },
+  "description" : "Проверяем добавление статьи в избранное",
+  "descriptionHtml" : "<p>Проверяем добавление статьи в избранное</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяем добавление статьи в избранное",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажимаем на поле поиска",
+      "time" : {
+        "start" : 1652983610964,
+        "stop" : 1652983610964,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Вводим название статьи в строке поиска",
+      "time" : {
+        "start" : 1652983611632,
+        "stop" : 1652983611632,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.example"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.TestCases"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkAddingArticleToFavourites"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.TestCases"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(204)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "kotlin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17d7ebde93de65a2.json",
+  "parameterValues" : [ ]
+}

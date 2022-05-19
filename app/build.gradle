@@ -42,7 +42,7 @@ android {
         targetSdkVersion 31
         versionCode 50401
         testApplicationId 'org.wikipedia.test'
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "io.qameta.allure.android.runners.AllureAndroidJUnitRunner"
         testInstrumentationRunnerArguments clearPackageData: 'true'
 
         vectorDrawables.useSupportLibrary = true
@@ -54,7 +54,11 @@ android {
         }
 
         dimension 'default'
-        signingConfig signingConfigs.debug
+        buildTypes {
+            debug{
+                debuggable true
+            }
+        }
 
         buildConfigField "String", "DEFAULT_RESTBASE_URI_FORMAT", '"%1$s://%2$s/api/rest_v1/"'
         buildConfigField "String", "META_WIKI_BASE_URI", '"https://meta.wikimedia.org"'
@@ -172,6 +176,10 @@ apply from: '../gradle/src/test.gradle'
 apply from: '../gradle/src/checkstyle.gradle'
 apply from: '../gradle/src/ktlint.gradle'
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
 
     // To keep the Maven Central dependencies up-to-date
@@ -261,7 +269,12 @@ dependencies {
     testImplementation "commons-io:commons-io:2.6"
     testImplementation 'org.hamcrest:hamcrest:2.2'
     testImplementation "androidx.room:room-testing:$roomVersion"
+    androidTestImplementation "io.qameta.allure:allure-kotlin-model:2.4.0"
+    androidTestImplementation "io.qameta.allure:allure-kotlin-commons:2.4.0"
+    androidTestImplementation "io.qameta.allure:allure-kotlin-junit4:2.4.0"
+    androidTestImplementation "io.qameta.allure:allure-kotlin-android:2.4.0"
 
+    androidTestImplementation 'io.github.kakaocup:kakao:3.0.6'
     androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
     androidTestImplementation "androidx.test.espresso:espresso-contrib:$espressoVersion"
     androidTestImplementation "androidx.test.espresso:espresso-intents:$espressoVersion"
@@ -270,6 +283,9 @@ dependencies {
     androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'
     androidTestImplementation "android.arch.persistence.room:testing:1.1.1"
     androidTestUtil 'androidx.test:orchestrator:1.4.1'
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.6.21"
+    implementation "io.github.kakaocup:kakao:3.0.6"
+    implementation "com.kaspersky.android-components:kaspresso:1.4.1"
 }
 
 private setSigningConfigKey(config, Properties props) {

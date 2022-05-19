@@ -1,0 +1,133 @@
+{
+    "name": "testFeedSettings",
+    "start": 1652985427251,
+    "stop": 1652985429705,
+    "stage": "finished",
+    "description": "Проверяем чекбоксы на странице настройки ленты",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Пропускаем экран с настройками и подсказками при запуске приложения",
+            "start": 1652985427552,
+            "stop": 1652985427552,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажимаем на кнопку \"Ещё\"",
+            "start": 1652985428003,
+            "stop": 1652985428003,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открываем настройки",
+            "start": 1652985428383,
+            "stop": 1652985428383,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажимаем на кнопку \"Настройки ленты\"",
+            "start": 1652985428911,
+            "stop": 1652985428911,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем, что каждый чек-бокс в состоянии checked",
+            "start": 1652985429322,
+            "stop": 1652985429322,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "257c10c9-d097-4bfe-a567-ade0bcf717f6",
+    "historyId": "d49d6eff0f5535ecd706efe4cf2b9505",
+    "fullName": "org.example.tests.TestFeedSettings.testFeedSettings",
+    "labels": [
+        {
+            "name": "package",
+            "value": "org.example.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "org.example.tests.TestFeedSettings"
+        },
+        {
+            "name": "testMethod",
+            "value": "testFeedSettings"
+        },
+        {
+            "name": "suite",
+            "value": "org.example.tests.TestFeedSettings"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(420)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

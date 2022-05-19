@@ -1,0 +1,31 @@
+[ {
+  "uid" : "c204d64f59a1318e",
+  "name" : "testAboutWikiScreen",
+  "time" : {
+    "start" : 1652983773513,
+    "stop" : 1652983775978,
+    "duration" : 2465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72437a2149641855",
+  "name" : "testFeedSettings",
+  "time" : {
+    "start" : 1652985427251,
+    "stop" : 1652985429705,
+    "duration" : 2454
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "286347fd7588d618",
+  "name" : "checkAddingArticleToFavourites",
+  "time" : {
+    "start" : 1652984116881,
+    "stop" : 1652984119479,
+    "duration" : 2598
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

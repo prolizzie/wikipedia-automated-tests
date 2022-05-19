@@ -1,0 +1,101 @@
+{
+    "name": "checkAddingArticleToFavourites",
+    "start": 1652984116881,
+    "stop": 1652984119479,
+    "stage": "finished",
+    "description": "Проверяем добавление статьи в избранное",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Пропускаем экран с настройками и подсказками при запуске приложения",
+            "start": 1652984117216,
+            "stop": 1652984117216,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажимаем на поле поиска",
+            "start": 1652984117722,
+            "stop": 1652984117722,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Вводим название статьи в строке поиска",
+            "start": 1652984118548,
+            "stop": 1652984118548,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "877a8063-9d4f-49f9-b131-edd1f80eb237",
+    "historyId": "8184a57bc1051d5056ada797237c61a2",
+    "fullName": "org.example.TestCases.checkAddingArticleToFavourites",
+    "labels": [
+        {
+            "name": "package",
+            "value": "org.example"
+        },
+        {
+            "name": "testClass",
+            "value": "org.example.TestCases"
+        },
+        {
+            "name": "testMethod",
+            "value": "checkAddingArticleToFavourites"
+        },
+        {
+            "name": "suite",
+            "value": "org.example.TestCases"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(284)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

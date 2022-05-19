@@ -1,0 +1,85 @@
+{
+    "name": "checkAddingArticleToFavourites",
+    "start": 1652983610144,
+    "stop": 1652983612573,
+    "stage": "finished",
+    "description": "Проверяем добавление статьи в избранное",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Нажимаем на поле поиска",
+            "start": 1652983610964,
+            "stop": 1652983610964,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Вводим название статьи в строке поиска",
+            "start": 1652983611632,
+            "stop": 1652983611632,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "3fc3bd98-79ad-45e0-89d1-0b80e63bd0f8",
+    "historyId": "8184a57bc1051d5056ada797237c61a2",
+    "fullName": "org.example.TestCases.checkAddingArticleToFavourites",
+    "labels": [
+        {
+            "name": "package",
+            "value": "org.example"
+        },
+        {
+            "name": "testClass",
+            "value": "org.example.TestCases"
+        },
+        {
+            "name": "testMethod",
+            "value": "checkAddingArticleToFavourites"
+        },
+        {
+            "name": "suite",
+            "value": "org.example.TestCases"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(204)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}
